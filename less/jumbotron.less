@@ -22,10 +22,21 @@
             }
             #main-text {
                 h1  {
-                font-size: 3rem; 
+                    font-size: 4rem;
+                    margin-bottom: 2rem;
+                    padding-bottom: 1rem;
+                    border-bottom: 1px solid #ddd;
+
+                    @media @phone {
+                        font-size: 3rem;
+                    }
                 }
                 h2 {
                     font-size: 2rem;
+
+                    @media @phone {
+                        font-size: 1.6rem;
+                    }
                 }
         }
 
