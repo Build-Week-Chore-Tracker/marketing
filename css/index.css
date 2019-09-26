@@ -181,6 +181,9 @@ header .header-container .header-wrapper nav a {
 header .header-container .header-wrapper nav a:first-child {
   margin-left: 0;
 }
+header .header-container .header-wrapper nav a:hover {
+  color: #d99c58;
+}
 * {
   box-sizing: border-box;
 }
@@ -253,7 +256,7 @@ section .feature-text h1 {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #ddd;
-  color: #d99c58;
+  color: #74c9d2;
 }
 section .feature-text p {
   font-size: 2.3rem;
@@ -321,7 +324,7 @@ footer .ft-ct a {
   font-size: 4rem;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  color: #d99c58;
+  color: black;
   border-bottom: 1px solid #ddd;
 }
 @media (max-width: 600px) {
