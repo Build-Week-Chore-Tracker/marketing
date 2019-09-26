@@ -1,7 +1,7 @@
 .reverse {
     flex-direction: row-reverse;
     @media @tablet {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
 }
@@ -22,6 +22,10 @@ section {
         margin-top: 20vh;
         text-align: center;
         max-width: 70%;
+        @media @tablet {
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+        }
 
         h1 {
             font-size: 4rem;
