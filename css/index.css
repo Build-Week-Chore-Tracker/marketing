@@ -142,7 +142,7 @@ header .header-container {
   border-bottom: 1px solid #eee;
   padding: 0 1rem;
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   header .header-container {
     height: 12rem;
     padding: 1rem 0;
@@ -155,7 +155,7 @@ header .header-container .header-wrapper {
   height: 100%;
   width: 100%;
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   header .header-container .header-wrapper {
     flex-direction: column;
     justify-content: space-around;
@@ -167,7 +167,7 @@ header .header-container .header-wrapper nav {
   height: 100%;
   font-size: 2.2em;
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   header .header-container .header-wrapper nav {
     height: auto;
     margin: 2rem 0;
@@ -238,7 +238,7 @@ section {
 }
 @media (max-width: 750px) {
   section {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 }

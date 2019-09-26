@@ -1,6 +1,6 @@
 # marketing
 
--Presented the project in a simplified and clean way. 
+- Presented the project in a simplified and clean way. 
 
 - Showcased 4 main features of the app and explained them in a marketable way
 
